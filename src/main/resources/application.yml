@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: spring_security_jwt
+
+jwt:
+   secret:
+     key: YourSecretKey
+     expiration: 3600000
